@@ -28,10 +28,23 @@
 
 // Eg 5 : 
 // finding sum using map function
-const arr = [1, 2, 3, 4, 5]
-let total = 0;
-arr.map((i) => {
-       total += i;
-})
-console.log(total);
+// const arr = [1, 2, 3, 4, 5]
+// let total = 0;
+// arr.map((i) => {
+//        total += i;
+// })
+// console.log(total);
+
+// Eg 6: 
+const users = [
+    { firstName: "rijas", lastName: "muhammed", age: 30 },
+    { firstName: "nass", lastName: "rij", age: 31 },
+    { firstName: "majj", lastName: "paree", age: 60 },
+    { firstName: "lovle", lastName: "vk", age: 50 }
+]
+
+// const newUsers = users.map((i) =>
+//     i.firstName + " " + i.lastName
+// )
+// console.log(newUsers);
 
